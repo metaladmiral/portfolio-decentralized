@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -5,7 +9,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,6 +18,12 @@
   -webkit-text-size-adjust: 100%;
 }
 
+h1,h2,h3,h4 {
+  font-family: 'Oswald', sans-serif;
+}
+span, p {
+  font-family: 'Lato', sans-serif;
+}
 a {
   font-weight: 500;
   color: #646cff;
@@ -29,6 +39,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 h1 {

@@ -1,0 +1,24 @@
+.right-wrapper {
+    width: 50%;
+    height: 100vh;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    right:-50%;
+    -webkit-animation: swipeFromRight;
+    -moz-animation: swipeFromRight;
+    animation: swipeFromRight 1.15s 1 forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@keyframes swipeFromRight {
+    0% {
+        right: -50%;
+    }
+    100% {
+        right: 0%;
+    }
+}
