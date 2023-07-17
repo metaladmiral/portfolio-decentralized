@@ -1,7 +1,7 @@
 .right-wrapper {
     width: 50%;
     height: 100vh;
-    background-color: #333;
+    background-color: whitesmoke;
     position: absolute;
     top: 0;
     right:-50%;
@@ -11,8 +11,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-
 
 @keyframes swipeFromRight {
     0% {
@@ -21,4 +21,33 @@
     100% {
         right: 0%;
     }
+}
+
+
+.project-details-card {
+    width: calc(60% - 30px);
+    height: auto;
+    background-color: #4d4d4d;
+    border-radius: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+.top {
+    width: 100%;
+    /* background:black; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.top h2  {
+    margin-top: 10px;
+}
+
+.coverImg {
+    width: 98%;
+    height: auto;
+    object-fit: cover;
 }
